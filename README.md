@@ -4,7 +4,7 @@ To run this repo, follow the below steps
 1. clone this repo to your desktop
 2. Install all the dependencies by running the following command
 ```bash
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 3. Run the analysis.ipynb notebook, this will plot the confusion matrices for each of the 6 models, while also geenrating the .pth files for the models, these files are not provided in this repo directly due to file size limit of 25MB on github(yep, the models are indeed big!)
 4. Put the generated models into ./models folder, this is the path set for the Streamit pathname
